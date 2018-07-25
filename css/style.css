@@ -850,3 +850,62 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+.benefits {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.benefits .title {
+  text-align: center;
+}
+.benefits__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 55px;
+  position: relative;
+}
+.benefits__list::after {
+  content: "";
+  position: absolute;
+  top: -150px;
+  right: -190px;
+  z-index: -1;
+  width: 373px;
+  height: 530px;
+  background-image: url(../img/img-4.jpg);
+  background-repeat: no-repeat;
+}
+.benefits__item {
+  width: 33.33%;
+  padding: 30px 60px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+.info {
+  min-height: 738px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.info__block {
+  max-width: 748px;
+  padding: 50px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
