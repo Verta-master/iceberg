@@ -1,0 +1,227 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .menu__btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon-menu-ham.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .menu__list {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+  }
+  .menu__item {
+    margin-right: 0;
+    text-align: center;
+  }
+  .menu__link {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu--opened {
+    .menu__btn {
+      background-image: url(../img/icon-menu-cross.svg);
+    }
+  }
+  .about__img,
+  .about__info {
+    width: 50%;
+  }
+  .about__item {
+    width: 31%;
+    margin-right: 0;
+  }
+  .about__list {
+    justify-content: space-around;
+  }
+  .games {
+    margin-top: -100px;
+    padding-top: 215px;
+  }
+  .benefits__item {
+    padding: 30px;
+  }
+  .order__wrap::after {
+    right: -50px;
+  }
+  .order__form {
+    width: 744px;
+  }
+  .footer__logo,
+  .footer__contacts {
+    padding-top: 0;
+  }
+  .footer__title,
+  .footer__list li {
+    padding-left: 0;
+  }
+}
+
+//-------------------------------
+@media (max-width: 1022px) {
+  .promo h1 {
+    font-size: 60px;
+    
+    span {
+      font-size: 30px;
+    }
+  }
+  .about__info {
+    padding: 20px;
+  }
+  .about__item {
+    width: 45%;
+  }
+  .games {
+    padding-top: 160px;
+  }
+  .games__list {
+    justify-content: space-around;
+  }
+  .games__item {
+    margin-right: 0;
+  }
+  .benefits__list::after {
+    display: none;
+  }
+  .benefits__item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .order__form {
+    width: 100%;
+  }
+  .footer__top {
+    padding-top: 45px;
+  }
+  .footer__list {
+    width: 250px;
+  }
+}
+
+//-----------------------------
+@media (max-width: 766px) {
+  .logo img {
+    width: 65px;
+    height: auto;
+  }
+  .logo span {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .promo h1 {
+    font-size: 48px;
+    
+    span {
+      font-size: 24px;
+    }
+  }
+  .about__block {
+    display: block;
+  }
+  .footer__list,
+  .about__img,
+  .about__info {
+    width: 100%;
+  }
+  .benefits__item {
+    width: 50%;
+  }
+  .order__comment {
+    margin-top: 20px;
+  }
+  .footer__top {
+    flex-wrap: wrap;
+  }
+  .footer__logo {
+    order: 1;
+  }
+  .footer__menu {
+    width: 100%;
+    margin-top: 30px;
+    order: 3;
+  }
+  .footer__contacts {
+    margin-left: auto;
+    order: 2;
+  }
+}
+
+//-------------------------
+@media (max-width: 480px) {
+  .menu {
+    margin-right: 0;
+  }
+  .social__item {
+    margin-left: 20px;
+  }
+  .logo img {
+    width: 55px;
+  }
+  .logo span {
+    margin-left: 15px;
+  }
+  .promo h1 {
+    font-size: 32px;
+    
+    span {
+      font-size: 18px;
+    }
+  }
+  .promo {
+    padding-top: 150px;
+    min-height: 540px;
+  }
+  .order__title,
+  .games .title,
+  .title {
+    font-size: 26px;
+  }
+  .footer__contacts {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .benefits__item,
+  .about__item {
+    width: 100%;
+  }
+  .games {
+    margin-top: -40px;
+    padding-top: 100px;
+  }
+  .info__block {
+    padding: 30px 20px;
+  }
+  .order__wrap::after {
+    display: none;
+  }
+  .order__input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer__btn,
+  .order__btn {
+    margin-right: auto;
+  }
+  .footer__logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
