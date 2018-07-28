@@ -1,0 +1,37 @@
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pages__link {
+  display: block;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1;
+  .transition();
+  
+  &:hover,
+  &:active,
+  &--active {
+    color: #fff;
+    background-color: #2f80ed;
+    .transition();
+  }
+  
+  &--disabled {
+    display: none;
+  }
+  
+  &--dots {
+    &:hover,
+    &:active {
+      color: #000;
+      background-color: transparent;
+    }
+  }
+}

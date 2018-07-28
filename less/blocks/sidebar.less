@@ -1,4 +1,44 @@
 .sidebar {
   width: 263px;
+  padding: 25px;
   background-color: #fff;
+}
+
+.sidebar__btn {
+  display: none;
+}
+
+.sidebar__list {
+  .reset();
+  list-style: none;
+}
+
+.sidebar__item {
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1.2;
+  .transition();
+  
+  &::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -25px;
+    width: 3px;
+    height: 100%;
+    background-color: #2f80ed;
+  }
+  
+  &:hover,
+  &:active,
+  &--active {
+    color: #2f80ed;
+    .transition();
+  }
+  
+  &--active::before {
+    display: block;
+  }
 }
