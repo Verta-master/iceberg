@@ -1,0 +1,35 @@
+.breadcrumbs__link {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 40px;
+  position: relative;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: -23px;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+  
+  &--active {
+    &::after {
+      display: none;
+    }
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+  }
+}
