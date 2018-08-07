@@ -1478,7 +1478,7 @@ button {
 }
 .contacts__block {
   width: 360px;
-  padding: 30px 25px 30px 90px;
+  padding: 35px 25px 35px 90px;
   background-color: #ffffff;
 }
 .contacts__block address,
@@ -1486,6 +1486,7 @@ button {
 .contacts__block a {
   display: block;
   font-size: 15px;
+  line-height: 26px;
   font-style: normal;
 }
 .contacts__mail {
@@ -1497,6 +1498,7 @@ button {
 }
 .contacts__title {
   margin-top: 0;
+  margin-bottom: 25px;
   font-size: 22px;
   position: relative;
 }
@@ -1504,7 +1506,7 @@ button {
   color: #7ecceb;
   position: absolute;
   left: -40px;
-  top: 0;
+  top: 5px;
   font-size: 26px;
 }
 .contacts__title i.fa-phone {
@@ -1512,8 +1514,9 @@ button {
           transform: scaleX(-1);
 }
 .contacts__form {
-  margin-bottom: 45px;
-  padding: 55px 110px;
+  margin-bottom: 50px;
+  padding: 50px 110px;
+  padding-bottom: 60px;
   background-color: #fff;
 }
 .contacts__form span {
@@ -1525,10 +1528,10 @@ button {
   line-height: 1.2;
   color: #2c2c2c;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .contacts__order {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .contacts__input {
   display: inline-block;
@@ -1564,7 +1567,7 @@ button {
   width: 100%;
   min-height: 118px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 15px 20px;
   border: 1px solid #e8e8e8;
 }
 .contacts__message::-webkit-input-placeholder {
@@ -1692,6 +1695,14 @@ button {
   .heading {
     margin-top: 78px;
   }
+  .contacts__block {
+    width: 32%;
+    padding: 20px;
+    padding-left: 70px;
+  }
+  .contacts__input {
+    width: 32%;
+  }
 }
 @media (max-width: 1022px) {
   .promo h1 {
@@ -1758,6 +1769,24 @@ button {
   }
   .internal {
     padding-bottom: 50px;
+  }
+  .contacts__title {
+    font-size: 20px;
+  }
+  .contacts__title i {
+    font-size: 20px;
+    left: -30px;
+    top: 2px;
+  }
+  .contacts__block {
+    padding-left: 55px;
+    padding-right: 15px;
+  }
+  .contacts__form {
+    padding: 30px;
+  }
+  .contacts {
+    padding-bottom: 0;
   }
 }
 @media (max-width: 766px) {
@@ -1827,6 +1856,17 @@ button {
   }
   .heading {
     margin-top: 62px;
+  }
+  .contacts__list {
+    display: block;
+  }
+  .contacts__block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contacts__input {
+    width: 100%;
+    margin-right: 0;
   }
 }
 @media (max-width: 480px) {
@@ -1898,5 +1938,12 @@ button {
   }
   .heading {
     margin-top: 55px;
+  }
+  .contacts__formtitle {
+    font-size: 24px;
+  }
+  .contacts__btn {
+    width: 100%;
+    font-size: 16px;
   }
 }
