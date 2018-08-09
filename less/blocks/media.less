@@ -94,6 +94,9 @@
   .contacts__input {
     width: 32%;
   }
+  .page__panel {
+    padding: 40px;
+  }
 }
 
 //-------------------------------
@@ -268,6 +271,15 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .page__panel {
+    padding: 20px;
+  }
+  .page__value {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 40px;
+  }
 }
 
 //-------------------------
@@ -341,6 +353,10 @@
   }
   .heading {
     margin-top: 55px;
+    
+    h1 {
+      font-size: 30px;
+    }
   }
   .contacts__formtitle {
     font-size: 24px;
@@ -370,5 +386,41 @@
     font-size: 15px;
     padding-right: 0;
     padding-left: 20px;
+  }
+  .page__heading {
+    font-size: 24px;
+  }
+  .page__panel {
+    flex-wrap: wrap;
+  }
+  .page__tablo {
+    order: 1;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .page__logo {
+    margin-left: auto;
+    margin-right: auto;
+    
+    &--left {
+      order: 2;
+    }
+    &--right {
+      order: 3;
+    }
+  }
+  .page__names p {
+    padding-left: 0;
+  }
+  .page__names span {
+    width: 75px;
+  }
+  .page__head {
+    padding: 30px;
+  }
+  .page__value {
+//    margin-left: auto;
+//    margin-right: auto;
   }
 }
