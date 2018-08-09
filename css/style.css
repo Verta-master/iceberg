@@ -1446,6 +1446,9 @@ button {
   margin-top: 35px;
   margin-bottom: 35px;
 }
+.page__img--mg {
+  margin: 0;
+}
 .page__title-1 {
   margin-top: 0;
   font-size: 24px;
@@ -1558,6 +1561,111 @@ button {
 .page__blocks p {
   width: 45%;
   margin: 0;
+}
+.page__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  padding: 40px 80px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.01);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.01);
+}
+.page__logo {
+  text-align: center;
+}
+.page__logo figcaption {
+  font-size: 14px;
+}
+.page__tablo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page__tablo::before {
+  content: ":";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 60px;
+  line-height: 1;
+  color: #2f80ed;
+}
+.page__value {
+  margin: 0 35px;
+  padding: 30px 20px;
+  color: #2f80ed;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 300;
+  border: 2px solid #2f80ed;
+  border-radius: 10px;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+}
+.page__value span {
+  display: block;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+.page__field {
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.01);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.01);
+}
+.page__field address {
+  font-style: normal;
+}
+.page__head {
+  padding: 35px 40px;
+  border-bottom: 1px solid #dddddd;
+}
+.page__names {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 40px 35px;
+  padding-left: 0;
+  background-color: #fff;
+}
+.page__names li {
+  margin-bottom: 5px;
+}
+.page__names span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 95px;
+  text-align: center;
+}
+.page__names p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+.page__blue {
+  margin: 0;
+  padding: 35px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #2f80ed;
 }
 .pages {
   display: -webkit-box;
